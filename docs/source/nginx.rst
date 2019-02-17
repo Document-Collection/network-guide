@@ -7,3 +7,4 @@ nginx
    :caption: 目录:
    
    nginx/[Ubuntu 16.04]nginx安装
+   nginx/[Ubuntu 16.04]nginx测试
