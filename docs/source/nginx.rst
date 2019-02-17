@@ -8,3 +8,4 @@ nginx
    
    nginx/[Ubuntu 16.04]nginx安装
    nginx/[Ubuntu 16.04]nginx测试
+   nginx/[Ubuntu 16.04]nginx中文乱码

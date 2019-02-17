@@ -1,0 +1,26 @@
+
+# [Ubuntu 16.04]nginx中文乱码
+
+参考：
+
+[Nginx 显示中文乱码解决](https://blog.csdn.net/qq_35448976/article/details/79256873)
+
+修改配置文件`/etc/nginx/conf.d/default.conf`，添加
+
+    charset utf-8;
+
+    $ cat default.conf 
+    server {
+        ...
+        ...
+        charset utf-8;
+        #charset koi8-r;
+        ...
+    }
+
+重启`nginx`服务
+
+    sudo service nginx restart
+
+在浏览器刷新页面（`F5`）即可
+

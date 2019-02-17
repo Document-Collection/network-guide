@@ -12,9 +12,17 @@
     $ sudo netstat -lnp | grep 80
     tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      22308/nginx: master
 
+如果已被占用则退出该进程
+
+    $ sudo kill 22308
+
 启动`nginx`
 
-    sudo nginx
+    $ sudo nginx
+    $ ps -ef | grep nginx
+    root      1068     1  0 16:31 ?        00:00:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+    nginx     1069  1068  0 16:31 ?        00:00:00 nginx: worker process
+    ubuntu   15252  1320  0 19:13 pts/0    00:00:00 grep --color=auto nginx
 
 打开浏览器，访问该机器的`ip`，即会出现`nginx`欢迎页面
 
