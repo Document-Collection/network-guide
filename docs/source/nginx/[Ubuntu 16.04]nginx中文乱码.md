@@ -22,5 +22,5 @@
 
     sudo service nginx restart
 
-在浏览器刷新页面（`F5`）即可
+在浏览器刷新页面（`Ctrl+F5`）即可
 
