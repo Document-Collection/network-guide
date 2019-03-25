@@ -10,3 +10,4 @@
    
    net-traversal/前言
    net-traversal/[内网穿透][路由器]虚拟服务器
+   net-traversal/[内网穿透]花生壳
