@@ -175,3 +175,43 @@ root     28348  0.0  0.0  10888   316 ?        Ss   15:50   0:00 edge -d n2n0 -c
 zj       29947  0.0  0.0  15964  1016 pts/23   S+   16:09   0:00 grep --color=auto edge
 $ sudo kill -9 28348
 ```
+
+### 稳定性
+
+隔一段时间`ping`内网服务器会发现无法连接 
+
+```
+PING 172.16.0.200 (172.16.0.200) 56(84) bytes of data.
+From 172.16.0.201 icmp_seq=1 Destination Host Unreachable
+```
+
+参考[搜集整理N2N使用中的一些经验](http://www.lucktu.com/archives/767.html)，是因为`edge`休眠了，持续一段时间就能够`ping`通了
+
+```
+$ ping 172.16.0.200
+PING 172.16.0.200 (172.16.0.200) 56(84) bytes of data.
+From 172.16.0.201 icmp_seq=1 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=2 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=3 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=4 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=5 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=6 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=7 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=8 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=9 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=10 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=11 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=12 Destination Host Unreachable
+From 172.16.0.201 icmp_seq=13 Destination Host Unreachable
+64 bytes from 172.16.0.200: icmp_seq=14 ttl=64 time=1200 ms
+64 bytes from 172.16.0.200: icmp_seq=15 ttl=64 time=176 ms
+64 bytes from 172.16.0.200: icmp_seq=16 ttl=64 time=87.6 ms
+64 bytes from 172.16.0.200: icmp_seq=17 ttl=64 time=99.2 ms
+64 bytes from 172.16.0.200: icmp_seq=18 ttl=64 time=87.2 ms
+64 bytes from 172.16.0.200: icmp_seq=19 ttl=64 time=88.7 ms
+64 bytes from 172.16.0.200: icmp_seq=20 ttl=64 time=88.6 ms
+^C
+--- 172.16.0.200 ping statistics ---
+20 packets transmitted, 7 received, +13 errors, 65% packet loss, time 19311ms
+rtt min/avg/max/mdev = 87.257/261.182/1200.246/384.543 ms, pipe 4
+```
