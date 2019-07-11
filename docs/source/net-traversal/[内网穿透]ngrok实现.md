@@ -59,6 +59,8 @@ $
 
 [ngrok实现公网访问内网主机并开机启动，远程管理，校外也能看论文](https://zhuanlan.zhihu.com/p/54956793)
 
+[搭建并配置优雅的 ngrok 服务实现内网穿透](https://yii.im/posts/pretty-self-hosted-ngrokd/)
+
 使用官网服务器进行内网穿透很方便，不过其延迟比较大，估计是因为服务器都搭建在国外，作者[inconshreveable](https://github.com/inconshreveable)开源了其[ngrok](https://github.com/inconshreveable/ngrok)实现，所以可以自建服务器进行配置
 
 ![](./imgs/ngrok.png)
@@ -143,7 +145,7 @@ $ make release-client
 $ ./ngrokd -tlsKey=a.key -tlsCrt=a.pem -domain="ngrok.example.com" -httpAddr=":6060" -httpsAddr=":6061" -tunnelAddr=":6062"
 ```
 
-* `tlsKey`和`tlsCrt`表示SSL证书地址
+* `tlsKey`和`tlsCrt`表示`SSL`证书地址
 * `domain`表示之前配置的域名
 * `ngrok`服务器会监听`HTTPS/HTTPSs/TCP`端口，默认是`80/443/4443`，修改为其他端口号
 
