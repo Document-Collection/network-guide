@@ -3,9 +3,9 @@
 
 [![Documentation Status](https://readthedocs.org/projects/zj-network-guide/badge/?version=latest)](https://zj-network-guide.readthedocs.io/zh_CN/latest/?badge=latest) [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-> 网络基础知识、使用工具
+> 计算机网络相关概念、工具
 
-网络基本概念，相同工具使用，当前有：
+学习计算机网络基础知识以及相关工具，当前有：
 
 1. 计算机网络基础知识
 2. `nginx`配置
