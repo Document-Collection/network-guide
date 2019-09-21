@@ -37,7 +37,7 @@ $ sudo apt-get install make
 
 有两种使用方式
 
-1. 在线浏览文档：[网络指南](https://readthedocs.org/projects/zj-network-guide/badge/?version=latest)
+1. 在线浏览文档：[网络指南](https://zj-network-guide.readthedocs.io/zh_CN/latest/?badge=latest)
 
 2. 本地生成文档，实现如下：
 
