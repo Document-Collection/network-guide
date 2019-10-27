@@ -48,6 +48,8 @@
 
 ## 反向代理过程
 
+参考：[nginx做反向代理处理http请求的过程](https://blog.csdn.net/yusiguyuan/article/details/39249497)
+
 `nginx`安装在本地，所以当`URL`输入`localhost/jenkins/`时
 
 1. 解析域名为`IP`地址`127.0.0.1`，请求本地`nginx`进行处理
