@@ -12,3 +12,4 @@ nginx
    nginx/[Ubuntu 16.04]nginx中文乱码
    nginx/[Ubuntu 16.04]nginx托管静态网站
    nginx/[Ubuntu 16.04]nginx配置HTTPS
+   nginx/[Ubuntu 16.04]nginx反向代理
