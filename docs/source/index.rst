@@ -12,6 +12,7 @@
 
    basic
    nginx
+   tomcat
    net-traversal
 
 
