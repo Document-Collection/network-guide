@@ -9,7 +9,8 @@
 
 1. 计算机网络基础知识
 2. `nginx`配置
-3. 内网穿透
+3. `tomcat`配置
+4. 内网穿透
 
 ## 内容列表
 
@@ -26,7 +27,7 @@
 
 # 安装
 
-需要预先安装以下工具：
+文档编译需要预先安装以下工具：
 
 ```
 $ pip install -U Sphinx
@@ -35,7 +36,7 @@ $ sudo apt-get install make
 
 ## 用法
 
-有两种使用方式
+有两种文档使用方式
 
 1. 在线浏览文档：[网络指南](https://zj-network-guide.readthedocs.io/zh_CN/latest/?badge=latest)
 
