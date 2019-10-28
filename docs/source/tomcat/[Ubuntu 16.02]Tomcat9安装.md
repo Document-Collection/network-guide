@@ -7,14 +7,9 @@
 
 [Ubuntu16.04服务器安装tomcat](https://blog.csdn.net/Shezzer/article/details/84074133)
 
-## 预安装
+## 先决条件
 
-`Tomcat`需要预先安装`JDK`，并设置环境变量
-
-```
-export JAVA_HOME=/home/zj/software/java/jdk1.8.0_201
-export JRE_HOME=$JAVA_HOME/jre
-```
+`Tomcat`需要预先安装`JDK`
 
 ## 下载
 
@@ -22,25 +17,29 @@ export JRE_HOME=$JAVA_HOME/jre
 
 ## 配置
 
-解压到`/opt`目录下，修改环境变量配置文件`/etc/profile`，增加
+解压到`/opt/tomcat`目录下，在`bin`目录下新建文件`setenv.sh`（*如果没有的话*）
 
 ```
+# JAVA
+export JAVA_HOME=/home/zj/software/java/jdk1.8.0_201
+export JRE_HOME=$JAVA_HOME/jre
+
 # Tomcat
-export CATALINA_HOME=/opt/apache-tomcat-9.0.27
-export CATALINA_BASE=/opt/apache-tomcat-9.0.27
-``` 
+export CATALINA_HOME=/opt/tomcat/apache-tomcat-9.0.27
+export CATALINA_BASE=/opt/tomcat/apache-tomcat-9.0.27
+```
 
 ## 启动
 
 执行文件`/bin/startup.sh`，即可启动`Tomcat`
 
 ```
-# ./startup.sh 
-Using CATALINA_BASE:   /opt/apache-tomcat-9.0.27
-Using CATALINA_HOME:   /opt/apache-tomcat-9.0.27
-Using CATALINA_TMPDIR: /opt/apache-tomcat-9.0.27/temp
+$ ./startup.sh 
+Using CATALINA_BASE:   /opt/tomcat/apache-tomcat-9.0.27
+Using CATALINA_HOME:   /opt/tomcat/apache-tomcat-9.0.27
+Using CATALINA_TMPDIR: /opt/tomcat/apache-tomcat-9.0.27/temp
 Using JRE_HOME:        /home/zj/software/java/jdk1.8.0_201/jre
-Using CLASSPATH:       /opt/apache-tomcat-9.0.27/bin/bootstrap.jar:/opt/apache-tomcat-9.0.27/bin/tomcat-juli.jar
+Using CLASSPATH:       /opt/tomcat/apache-tomcat-9.0.27/bin/bootstrap.jar:/opt/tomcat/apache-tomcat-9.0.27/bin/tomcat-juli.jar
 Tomcat started.
 ```
 
@@ -81,7 +80,7 @@ Tomcat started.
 #
 # By default this script does nothing.
 
-/opt/apache-tomcat-9.0.27/bin/startup.sh
+/opt/tomcat/apache-tomcat-9.0.27/bin/startup.sh
 
 exit 0
 ```
