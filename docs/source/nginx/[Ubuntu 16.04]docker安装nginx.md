@@ -105,3 +105,9 @@ $ docker run -d -p 7700:80 \
 * `-v`：挂载本地目录到容器中
 
 ![](./imgs/hello-nginx.png)
+
+上述操作后`nginx`将使用主机保存的配置文件，可以修改`~/nginx/conf.d/default.conf`，重新启动正在运行的容器即可更新配置
+
+```
+$ docker restart COMTAINER_ID
+```
