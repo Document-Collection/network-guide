@@ -187,7 +187,7 @@ $ ./ngrok -config ngrok.cfg -log ngrok.log start ssh
 运行成功后就可以打开命令行窗口登录
 
 ```
-$ ssh -p 12345 zj@ngrok.xxx.xxx
+$ ssh -p 12345 zj@ngrok.xxx.xxx  # zj是内网的用户名
 Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-130-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
