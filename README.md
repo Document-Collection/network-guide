@@ -37,8 +37,8 @@ $ pip install mkdocs
 2. 本地浏览文档，实现如下：
 
     ```
-    $ git clone https://github.com/zjZSTU/wall-guide.git
-    $ cd Containerization-Automation
+    $ git clone https://github.com/zjZSTU/network-guide.git
+    $ cd network-guide
     $ mkdocs serve
     ```
    启动本地服务器后即可登录浏览器`localhost:8000`
