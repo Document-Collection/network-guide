@@ -30,8 +30,7 @@
 文档编译需要预先安装以下工具：
 
 ```
-$ pip install -U Sphinx
-$ sudo apt-get install make
+$ pip install mkdocs
 ```
 
 ## 用法
@@ -40,14 +39,14 @@ $ sudo apt-get install make
 
 1. 在线浏览文档：[网络指南](https://zj-network-guide.readthedocs.io/zh_CN/latest/?badge=latest)
 
-2. 本地生成文档，实现如下：
+2. 本地浏览文档，实现如下：
 
     ```
-    $ git clone https://github.com/zjZSTU/network-guide.git
-    $ cd network-guide/docs
-    $ make html
+    $ git clone https://github.com/zjZSTU/wall-guide.git
+    $ cd Containerization-Automation
+    $ mkdocs serve
     ```
-    编译完成后进入`docs/build/html`目录，打开`index.html`文件
+   启动本地服务器后即可登录浏览器`localhost:8000`
 
 ## 主要维护人员
 
