@@ -1,5 +1,5 @@
 
-# [Ubuntu 16.04]docker安装nginx
+# docker安装nginx
 
 主要参考[Docker 安装 Nginx](https://www.runoob.com/docker/docker-install-nginx.html)完成`nginx`的安装和配置
 

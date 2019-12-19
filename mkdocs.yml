@@ -1,0 +1,76 @@
+# 站点名称
+site_name: 'Network Guide'
+# 仓库链接
+repo_url: https://github.com/zjZSTU/network-guide.git
+# 作者
+site_author: 'zhujian'
+# 版权信息
+copyright: '2019, zhujian'
+# 源文件目录
+docs_dir: 'docs'
+# 生成静态文件目录
+site_dir: 'site'
+# 额外信息
+extra:
+    # 版本号
+    version: 2.0.0
+# 主题
+theme: 
+    # name: 'readthedocs'
+    # name: 'mkdocs'
+    name: 'material'
+# markdown扩展
+markdown_extensions:
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex
+
+extra_javascript:
+    - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+# 导航
+nav:
+    - Home: index.md
+    - 基本概念:
+        - 'IP地址': './basic/ip地址.md'
+        - '路由器、交换机、集线器、中继器': './basic/路由器、交换机、集线器、中继器.md'
+        - '局域网、广域网、互联网和私有专用网': './basic/局域网、广域网、互联网和私有专用网.md'
+        - '网络体系结构': './basic/网络体系结构.md'
+        - 'URL构成': './basic/URL构成.md'
+        - 'DNS解析过程': './basic/DNS解析过程.md'
+    - '内网穿透':
+        - '前言': './net-traversal/前言.md'
+        - '[内网穿透][路由器]虚拟服务器': './net-traversal/[内网穿透][路由器]虚拟服务器.md'
+        - '[内网穿透]花生壳': './net-traversal/[内网穿透]花生壳.md'
+        - '[内网穿透]n2n原理': './net-traversal/[内网穿透]n2n原理.md'
+        - '[内网穿透]n2n实现': './net-traversal/[内网穿透]n2n实现.md'
+        - '[内网穿透]ngrok实现': './net-traversal/[内网穿透]ngrok实现.md'
+    - 'Nginx使用':
+        - '安装': './nginx/安装.md'
+        - '测试': './nginx/测试.md'
+        - '配置': './nginx/配置.md'
+        - '中文乱码': './nginx/中文乱码.md'
+        - '托管网站': './nginx/托管网站.md'
+        - '配置Https': './nginx/配置Https.md'
+        - '反向代理': './nginx/反向代理.md'
+        - 'docker安装nginx': './nginx/docker安装nginx.md'
+    - 'Tomcat使用':
+        - '关于Tomcat': './tomcat/关于Tomcat.md'
+        - '[Ubuntu 16.02]Tomcat9安装': './tomcat/[Ubuntu 16.02]Tomcat9安装.md'
+        - '非root用户运行': './tomcat/非root用户运行.md'
+    - 'SSH使用':
+        - 'get-started':
+            - 'http和ssh协议': './ssh/http和ssh协议.md'
+            - '[SSH]远程连接': './ssh/[SSH]远程连接.md'
+            - '[SSH]常用工具': './ssh/[SSH]常用工具.md'
+            - '[SSH]生成密钥': './ssh/[SSH]生成密钥.md'
+            - '[SSH]客户端配置文件': './ssh/[SSH]客户端配置文件.md'
+        - '进阶':
+            - '[SSH]禁用公钥检查': './ssh/[SSH]禁用公钥检查.md'
+            - '[ssh-copy-id]复制公钥到远程服务器': './ssh/[ssh-copy-id]复制公钥到远程服务器.md'
+            - '[ssh-add]添加私钥缓存': './ssh/[ssh-add]添加私钥缓存.md'
+            - '[ssh-agent]代理设置': './ssh/[ssh-agent]代理设置.md'
+        - '常见问题':
+            - '[SSH]连接卡住': './ssh/[SSH]连接卡住.md'
+            - '[SSH]Too many ssh failures': './ssh/[SSH]Too many ssh failures.md'
+            - 'ssh: connect to host github.com port 22: Connection timed out': './ssh/ssh: connect to host github.com port 22: Connection timed out.md'
+            - 'Bad owner or permissions on .ssh config': './ssh/Bad owner or permissions on .ssh config.md'

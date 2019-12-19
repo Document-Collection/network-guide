@@ -1,5 +1,5 @@
 
-# [Ubuntu 16.04]nginx配置HTTPS
+# 配置Https
 
 参考：
 
