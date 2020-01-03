@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  ngrok:
+    labels:
+        AUTHOR: "zhujian <zjzstu@github.com>"
+    container_name: ngrokd
+    image: zjzstu/ngrok:server
+    build: .
+    environment:
+        - DOMAIN=xxx.xxx.xxx
+    ports: 
+        - "xxxx:xxxx"
+    restart: always
+    tty: true
+    stdin_open: true
