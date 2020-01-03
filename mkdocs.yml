@@ -74,3 +74,4 @@ nav:
             - '[SSH]Too many ssh failures': './ssh/[SSH]Too many ssh failures.md'
             - 'ssh: connect to host github.com port 22: Connection timed out': './ssh/ssh: connect to host github.com port 22: Connection timed out.md'
             - 'Bad owner or permissions on .ssh config': './ssh/Bad owner or permissions on .ssh config.md'
+            - 'ssh_exchange_identification: Connection closed by remote host': './ssh/ssh_exchange_identification: Connection closed by remote host.md'
