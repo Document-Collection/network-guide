@@ -63,7 +63,7 @@ nav:
             - '[SSH]远程连接': './ssh/[SSH]远程连接.md'
             - '[SSH]常用工具': './ssh/[SSH]常用工具.md'
             - '[SSH]生成密钥': './ssh/[SSH]生成密钥.md'
-            - '[SSH]客户端配置文件': './ssh/[SSH]客户端配置文件.md'
+            - '[SSH]客户端配置文件config': './ssh/[SSH]客户端配置文件config.md'
         - '进阶':
             - '[SSH]禁用公钥检查': './ssh/[SSH]禁用公钥检查.md'
             - '[ssh-copy-id]复制公钥到远程服务器': './ssh/[ssh-copy-id]复制公钥到远程服务器.md'

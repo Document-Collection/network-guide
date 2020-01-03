@@ -1,5 +1,5 @@
 
-# [SSH]客户端配置文件
+# [SSH]客户端配置文件config
 
 参考：
 
@@ -62,17 +62,20 @@
 
 ## 常用配置选项
 
-* `Host`：指定配置块
-* `User`：指定登录用户
-* `Hostname`：指定服务器地址，通常用`ip`地址
-* `Port`：指定端口号，默认值为`22`
-* `Identityfile`：指定本地认证私钥地址
-* `IdentitiesOnly`：指定`ssh`是否仅使用配置文件或命令行指定的私钥文件进行认证。值为`yes`或`no`，默认为`no`，该情况可在`ssh-agent`提供了太多的认证文件时使用
-* `IdentityFile`：指定认证私钥文件
-* `StrictHostKeyChecking`：有`3`种选项
-    * `ask`：默认值，第一次连接陌生服务器时提示是否添加，同时如果远程服务器公钥改变时拒绝连接
-    * `yes`：不会自动添加服务器公钥到`~/.ssh/known_hosts`中，同时如果远程服务器公钥改变时拒绝连接
-    * `no`：自动增加新的主机键到`~/.ssh/known_hosts`中
+* 必须配置
+    * `Host`：指定配置块
+    * `User`：指定登录用户
+    * `Hostname`：指定服务器地址，通常用`ip`地址
+    * `Port`：指定端口号，默认值为`22`
+* 可选
+    * `Identityfile`：指定本地认证私钥地址
+    * `ForwardAgent yes`：允许`ssh-agent`转发
+    * `IdentitiesOnly`：指定`ssh`是否仅使用配置文件或命令行指定的私钥文件进行认证。值为`yes`或`no`，默认为`no`，该情况可在`ssh-agent`提供了太多的认证文件时使用
+    * `IdentityFile`：指定认证私钥文件
+    * `StrictHostKeyChecking`：有`3`种选项
+        * `ask`：默认值，第一次连接陌生服务器时提示是否添加，同时如果远程服务器公钥改变时拒绝连接
+        * `yes`：不会自动添加服务器公钥到`~/.ssh/known_hosts`中，同时如果远程服务器公钥改变时拒绝连接
+        * `no`：自动增加新的主机键到`~/.ssh/known_hosts`中
 
 ## 使用方式
 
@@ -82,7 +85,6 @@
         user ubuntu
         hostname 123.231.032.123
         port 22
-        Identityfile ~/.ssh/id_rsa
 
 连接方式如下：
 
