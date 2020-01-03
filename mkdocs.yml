@@ -38,13 +38,13 @@ nav:
         - 'URL构成': './basic/URL构成.md'
         - 'DNS解析过程': './basic/DNS解析过程.md'
     - '内网穿透':
-        - '前言': './net-traversal/前言.md'
-        - '[内网穿透][路由器]虚拟服务器': './net-traversal/[内网穿透][路由器]虚拟服务器.md'
-        - '[内网穿透]花生壳': './net-traversal/[内网穿透]花生壳.md'
-        - '[内网穿透]n2n原理': './net-traversal/[内网穿透]n2n原理.md'
-        - '[内网穿透]n2n实现': './net-traversal/[内网穿透]n2n实现.md'
+        - '前言': './intranet-penetration/前言.md'
+        - '[内网穿透][路由器]虚拟服务器': './intranet-penetration/[内网穿透][路由器]虚拟服务器.md'
+        - '[内网穿透]花生壳': './intranet-penetration/[内网穿透]花生壳.md'
+        - '[内网穿透]n2n原理': './intranet-penetration/[内网穿透]n2n原理.md'
+        - '[内网穿透]n2n实现': './intranet-penetration/[内网穿透]n2n实现.md'
         - Ngrok:
-            - '[内网穿透]ngrok实现': './net-traversal/ngrok/[内网穿透]ngrok实现.md'
+            - '[内网穿透]ngrok实现': './intranet-penetration/ngrok/[内网穿透]ngrok实现.md'
     - 'Nginx使用':
         - '安装': './nginx/安装.md'
         - '测试': './nginx/测试.md'
