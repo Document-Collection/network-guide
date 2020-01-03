@@ -43,7 +43,8 @@ nav:
         - '[内网穿透]花生壳': './net-traversal/[内网穿透]花生壳.md'
         - '[内网穿透]n2n原理': './net-traversal/[内网穿透]n2n原理.md'
         - '[内网穿透]n2n实现': './net-traversal/[内网穿透]n2n实现.md'
-        - '[内网穿透]ngrok实现': './net-traversal/[内网穿透]ngrok实现.md'
+        - Ngrok:
+            - '[内网穿透]ngrok实现': './net-traversal/ngrok/[内网穿透]ngrok实现.md'
     - 'Nginx使用':
         - '安装': './nginx/安装.md'
         - '测试': './nginx/测试.md'
