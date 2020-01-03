@@ -44,7 +44,11 @@ nav:
         - '[内网穿透]n2n原理': './intranet-penetration/[内网穿透]n2n原理.md'
         - '[内网穿透]n2n实现': './intranet-penetration/[内网穿透]n2n实现.md'
         - Ngrok:
+            - '引言': './intranet-penetration/ngrok/index.md'
             - '[内网穿透]ngrok实现': './intranet-penetration/ngrok/[内网穿透]ngrok实现.md'
+            - '[ngrok]TCP和HTTP连接配置': './intranet-penetration/ngrok/[ngrok]TCP和HTTP连接配置.md'
+            - '[ngrok]Ubuntu service实现': './intranet-penetration/ngrok/[ngrok]Ubuntu service实现.md'
+            - '[ngrok]docker实现': './intranet-penetration/ngrok/[ngrok]docker实现.md'
     - 'Nginx使用':
         - '安装': './nginx/安装.md'
         - '测试': './nginx/测试.md'
