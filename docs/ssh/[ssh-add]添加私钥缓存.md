@@ -75,3 +75,17 @@ Welcome to Ubuntu 18.04.1 LTS (GNU/Linux 4.15.0-54-generic x86_64)
 
 Last login: Thu Sep 26 14:31:20 2019 from 101.68.71.72
 ```
+
+## 查询缓存私钥
+
+```
+$ ssh-add -l
+4096 SHA256:fmK9Jxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxcs /var/jenkins_home/.ssh/zj_rsa (RSA)
+```
+
+## 删除缓存私钥
+
+```
+$ ssh-add -D
+All identities removed.
+```
