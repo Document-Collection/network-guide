@@ -49,7 +49,7 @@ $ pip install mkdocs
 
 ## 参与贡献方式
 
-欢迎任何人的参与！打开[issue](https://github.com/zjZSTU/network-guide/issues)或提交合并请求。
+欢迎任何人的参与！打开[issue](https://github.com/zjZSTU/git-guide/issues)或提交合并请求。
 
 注意:
 
