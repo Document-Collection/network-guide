@@ -37,6 +37,7 @@ nav:
         - '网络体系结构': './basic/网络体系结构.md'
         - 'URL构成': './basic/URL构成.md'
         - 'DNS解析过程': './basic/DNS解析过程.md'
+        - '[namesilo][dnspod]域名申请和解析': './basic/[namesilo][dnspod]域名申请和解析.md'
     - '内网穿透':
         - '前言': './intranet-penetration/前言.md'
         - '[内网穿透][路由器]虚拟服务器': './intranet-penetration/[内网穿透][路由器]虚拟服务器.md'
