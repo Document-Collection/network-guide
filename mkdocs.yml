@@ -59,6 +59,7 @@ nav:
         - '[阿里云]配置HTTPs': './nginx/[阿里云]配置HTTPs.md'
         - '[腾讯云]配置HTTPs': './nginx/[腾讯云]配置HTTPs.md'
         - '反向代理': './nginx/反向代理.md'
+        - '[译]NGINX Reverse Proxy': './nginx/[译]NGINX Reverse Proxy.md'
         - 'docker安装nginx': './nginx/docker安装nginx.md'
     - 'Tomcat使用':
         - '关于Tomcat': './tomcat/关于Tomcat.md'
