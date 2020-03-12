@@ -1,5 +1,5 @@
 
-# 配置Https
+# [阿里云]配置HTTPs
 
 参考：
 
@@ -13,6 +13,8 @@
 2. 配置`CA`证书
 3. 配置`nginx`
 4. 重启`nginx`
+
+**`Note`：当前`Nginx`版本为`nginx version: nginx/1.14.2`**
 
 ## 申请`CA`服务
 
