@@ -42,6 +42,10 @@ nav:
     - 进阶操作:
             - '[Ubuntu 18.04]wifi信息查询': './advanced/[Ubuntu 18.04]wifi信息查询.md'
             - '[Ubuntu 18.04][resolv.conf]公共DNS设置': './advanced/[Ubuntu 18.04][resolv.conf]公共DNS设置.md'
+            - '[Docker][Ubuntu 18.04]网络工具安装': './advanced/[Docker][Ubuntu 18.04]网络工具安装.md'
+            - '[nslookup]域名解析': './advanced/[nslookup]域名解析.md'
+            - '[netstat]端口查询': './advanced/[netstat]端口查询.md'
+            - '[nc]远程端口查询': './advanced/[nc]远程端口查询.md'
     - 内网穿透:
         - '前言': './intranet-penetration/前言.md'
         - '[内网穿透][路由器]虚拟服务器': './intranet-penetration/[内网穿透][路由器]虚拟服务器.md'
