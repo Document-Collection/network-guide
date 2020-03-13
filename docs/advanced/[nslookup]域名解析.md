@@ -14,6 +14,12 @@
 1. 交互式（`interactive`）
 2. 非交互式（`non-interactive`）
 
+## 安装
+
+```
+$ sudo apt install dnsutils
+```
+
 ## 交互式
 
 首先输入`nslookup`，然后按回车键进入交互界面，再输入相应的域名即可查询对应`IP`，输入`exit`退出
