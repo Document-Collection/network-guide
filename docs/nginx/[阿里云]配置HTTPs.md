@@ -16,6 +16,8 @@
 
 **`Note`：当前`Nginx`版本为`nginx version: nginx/1.14.2`**
 
+>由于版本问题，配置文件可能存在不同的写法。例如：Nginx 版本为 nginx/1.15.0 以上请使用 listen 443 ssl 代替 listen 443 和 ssl on。
+
 ## 申请`CA`服务
 
 首先在[阿里云](https://www.aliyun.com/?utm_content=se_1000301881)或[腾讯云](https://cloud.tencent.com/?fromSource=gwzcw.2212127.2212127.2212127&utm_medium=cpd&utm_id=gwzcw.2212127.2212127.2212127)上申请[CA证书服务](https://www.aliyun.com/product/cas?spm=5176.10695662.1171680.1.752f3ae1Hnibka)
