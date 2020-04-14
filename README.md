@@ -22,10 +22,10 @@
 
 ## 安装
 
-文档编译需要预先安装以下工具：
+### 文档工具安装
 
 ```
-$ pip install mkdocs
+$ pip install -r requirements.txt
 ```
 
 ## 用法
