@@ -83,8 +83,7 @@ nav:
             - '[SSH]客户端配置文件config': './ssh/[SSH]客户端配置文件config.md'
         - '进阶':
             - '[SSH]禁用公钥检查': './ssh/[SSH]禁用公钥检查.md'
-            - '[ssh-copy-id]复制公钥到远程服务器': './ssh/[ssh-copy-id]复制公钥到远程
-            服务器.md'
+            - '[ssh-copy-id]复制公钥到远程服务器': './ssh/[ssh-copy-id]复制公钥到远程服务器.md'
             - '[ssh-add]添加私钥缓存': './ssh/[ssh-add]添加私钥缓存.md'
             - '[ssh-agent]代理设置': './ssh/[ssh-agent]代理设置.md'
             - '[SSH]客户端连接一段时间后卡死问题解决': './ssh/[SSH]客户端连接一段时间后卡死问题解决.md'
