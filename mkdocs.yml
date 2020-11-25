@@ -70,6 +70,7 @@ nav:
         - '反向代理': './nginx/反向代理.md'
         - '[译]NGINX Reverse Proxy': './nginx/[译]NGINX Reverse Proxy.md'
         - 'docker安装nginx': './nginx/docker安装nginx.md'
+        - '文件共享': './nginx/文件共享.md'
     - 'Tomcat使用':
         - '关于Tomcat': './tomcat/关于Tomcat.md'
         - '[Ubuntu 16.02]Tomcat9安装': './tomcat/[Ubuntu 16.02]Tomcat9安装.md'
