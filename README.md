@@ -1,4 +1,6 @@
 
+# 本仓库不再维护，更新的内容前往：[ZJDoc/Deploy](https://github.com/ZJDoc/Deploy)
+
 # 网络指南
 
 [![Documentation Status](https://readthedocs.org/projects/zj-network-guide/badge/?version=latest)](https://zj-network-guide.readthedocs.io/zh_CN/latest/?badge=latest) [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -9,12 +11,16 @@
 
 ## 内容列表
 
-- [背景](#背景)
-- [安装](#安装)
-- [用法](#用法)
-- [主要维护人员](#主要维护人员)
-- [参与贡献方式](#参与贡献方式)
-- [许可证](#许可证)
+- [本仓库不再维护，更新的内容前往：ZJDoc/Deploy](#本仓库不再维护更新的内容前往zjdocdeploy)
+- [网络指南](#网络指南)
+  - [内容列表](#内容列表)
+  - [背景](#背景)
+  - [安装](#安装)
+    - [文档工具安装](#文档工具安装)
+  - [用法](#用法)
+  - [主要维护人员](#主要维护人员)
+  - [参与贡献方式](#参与贡献方式)
+  - [许可证](#许可证)
 
 ## 背景
 
